@@ -11,7 +11,7 @@ class FaviconApp {
      *  Set up server IP address and port # using env variables/defaults.
      */
     setupVariables() {
-        this.port = process.env.PORT || 8080;
+       // this.port = process.env.PORT || 8080;
     }
 
     /**
