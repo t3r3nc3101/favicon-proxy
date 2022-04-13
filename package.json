@@ -19,7 +19,7 @@
     "url": "https://github.com/keeweb/favicon-proxy"
   },
   "engines": {
-    "node": "0.6.0",
+    "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
   "scripts": {
