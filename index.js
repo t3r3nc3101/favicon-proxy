@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
 const http = require('http');
-const faviconRequest = require('./favicon-request');
+const faviconRequest = require('./favicon-request.js');
 
 /**
  *  Define the sample application.
@@ -11,7 +11,7 @@ class FaviconApp {
      *  Set up server IP address and port # using env variables/defaults.
      */
     setupVariables() {
-        this.port = process.env.PORT || 80;
+        this.port = process.env.PORT || 8080;
     }
 
     /**
