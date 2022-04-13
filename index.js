@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
 const http = require('http');
-const faviconRequest = require('./favicon-request.js');
+const faviconRequest = require('./favicon-request');
 
 /**
  *  Define the sample application.
